@@ -9,7 +9,7 @@ new Promise((reject, resolve)=>{
         else
             reject("Element missing")
     }
-    data = [{'input1' 4, 'input2': 'input2'}]
+    data = [{'input1': 4, 'input2': 'input2'}]
     test(4,4,data)
 }).then(data => console.log("Test failed !!",data))
 .catch(error => console.log("Test Passed !!, error"))
